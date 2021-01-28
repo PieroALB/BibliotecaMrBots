@@ -94,7 +94,7 @@ header > div{
     border-radius:20px;
 }
 
-div > a{
+#title-box > a{
     text-decoration: none;
     list-style: none;
     font-size: 20px;
@@ -105,10 +105,11 @@ div > a{
     padding: 10px 35px;
 }
 
-div  a:hover{
+#title-box > a:hover{
     background-color: aliceblue;
     color: black;
 }
+
 
 
 /*NAVEGATION*/
@@ -116,7 +117,7 @@ nav{
     height:50px;
 }
 
-nav a{
+nav > a{
     float:right;
     text-decoration:none;
     list-style: none;
@@ -127,6 +128,10 @@ nav a{
     text-transform: uppercase;
 }
 
+
+nav > a:hover{
+    color:dodgerblue;
+}
 /*END NAVIGATION*/
 
 
@@ -299,6 +304,39 @@ button[type="submit"]:hover{
     background: none;
 }
 
+/*FOOTER*/
+
+footer {
+    height: 300px;
+    border: 1px solid #182C61;
+    background-color: #182C61;
+}
+
+.footer-box{
+    width: 500px;
+    height: 100px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: none;
+}
+
+.footer-box p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fa{
+    font-size: 50px;
+    color: aliceblue;
+    margin: 0 10px;
+}
+
+.fa:hover{
+    color: dodgerblue;
+}
+
+/*ENDFOOTER*/
 
 
 
